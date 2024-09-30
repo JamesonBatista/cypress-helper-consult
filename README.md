@@ -10,6 +10,7 @@ Bem-vindo ao repositório de consultas de automação com Cypress! Este projeto 
     - [Testes com iFrames](#testes-com-iframes)
     - [Tipagem ou Autocomplete](#tipagem-ou-autocomplete-de-commands)
     - [Styles](#cypress-styles)
+    - [Lista](#cypress-lista)
 - [Licença](#licença)
 
 ---
@@ -24,7 +25,6 @@ Explore os tópicos listados abaixo para encontrar soluções para problemas que
 
 
 ### Testes com iFrames
-Soluções para lidar com iFrames em suas páginas, utilizando a biblioteca `cypress-iframe` e técnicas de manipulação direta de iFrames.
 
 [Veja o arquivo relacionado](./cypress/e2e/iframe/iframe.cy.js)
 
@@ -38,8 +38,18 @@ Soluções para lidar com iFrames em suas páginas, utilizando a biblioteca `cyp
 Mude o designer do Cypress
 [veja aqui](./cypress/support/styles.js)
 
+## PageObjects
+
+### Modelo 1 [Modelo 1](./cypress/e2e/pageObjects/Modelo1/test.cy.js)
+### Modelo 2 [Modelo 2](./cypress/e2e/pageObjects/Modelo2/test.cy.js)
+### Modelo 3 [Modelo 3](./cypress/e2e/pageObjects/Modelo3/test.cy.js)
 
 
+## Cypress Lista
+
+### Aprenda como tratar lista, seja em iframe ou fora. 
+
+[Link para o teste](./cypress/e2e/lista/test.cy.js)
 
 ## Licença
 Este projeto está licenciado sob a [MIT License](LICENSE).

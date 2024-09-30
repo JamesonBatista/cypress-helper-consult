@@ -16,6 +16,7 @@
 // Import commands.js using ES2015 syntax:
 import './commands'
 import './styles'
+import '../e2e/pageObjects/Modelo3/page'
 
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
