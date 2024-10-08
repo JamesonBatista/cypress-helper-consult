@@ -5,6 +5,7 @@ describe("Test List", () => {
 
   it("List", () => {
     cy.contains("Login").click();
+    cy.contains("Menu").click();
     cy.contains("Lista Ul li").click();
     let counter = 0;
     cy.get("section")

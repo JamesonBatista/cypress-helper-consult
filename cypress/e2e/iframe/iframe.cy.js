@@ -5,6 +5,8 @@ describe("Testing iframe", () => {
 
   it("Access iframe form", () => {
     cy.contains("Login").click();
+    cy.contains("Menu").click();
+
     cy.contains("Iframe Carros Lista").click();
 
     cy.get("iframe")
